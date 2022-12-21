@@ -1,7 +1,14 @@
 import React from 'react';
+import GoalList from './components/GoalList';
+import './App.css';
 
 const App = () => {
-  return <h1>A React App!</h1>;
+  return (
+    <div className='course-goals'>
+      <h2>Goals for today</h2>
+      <GoalList />
+    </div>
+  )
 };
 
 export default App;
